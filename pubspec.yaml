@@ -35,7 +35,7 @@ dependencies:
 
   # Media
   image_picker: ^1.0.7
-  share_plus: ^13.1.0
+  share_plus: ^11.1.0
 
   # PDF
   pdf: ^3.10.7
