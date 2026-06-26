@@ -1,0 +1,12 @@
+{
+  "name": "notification_server",
+  "version": "1.0.0",
+  "description": "Firebase Notification Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.4.0"
+  }
+}

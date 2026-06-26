@@ -1,0 +1,83 @@
+name: shreenath_veg_billing
+description: Shreenath Vegetable Billing App
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+  # Firebase
+  firebase_core: ^4.0.0
+  firebase_auth: ^6.0.0
+  cloud_firestore: ^6.0.0
+  firebase_messaging: ^16.0.0
+
+  # Notifications
+  flutter_local_notifications: ^17.2.4
+
+  # Google
+  google_sign_in: ^7.2.0
+
+  # Audio
+  just_audio: ^0.10.4
+  vibration: ^3.2.0
+
+  # Storage
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.2
+
+  # Media
+  image_picker: ^1.0.7
+  share_plus: ^13.1.0
+
+  # PDF
+  pdf: ^3.10.7
+  printing: ^5.13.1
+
+  # QR
+  qr_flutter: ^4.1.0
+
+  # Utils
+  intl: ^0.20.2
+  url_launcher: ^6.3.0
+  speech_to_text: ^7.0.0
+  flutter_colorpicker: ^1.0.3
+  font_awesome_flutter: ^11.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/sounds/
+
+  fonts:
+    - family: NotoSansDevanagari
+      fonts:
+        - asset: assets/fonts/NotoSansDevanagari-Regular.ttf
+        - asset: assets/fonts/NotoSansDevanagari-Bold.ttf
+          weight: 700
+
+    - family: NotoColorEmoji
+      fonts:
+        - asset: assets/fonts/NotoColorEmoji.ttf
+
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "715020481603",
+    "project_id": "shreenath-veg-billing-53fcf",
+    "storage_bucket": "shreenath-veg-billing-53fcf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715020481603:android:c7da65461a88aa367010f6",
+        "android_client_info": {
+          "package_name": "com.example.shreenath_veg_billing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715020481603-84n09opjg8a2fe45mhnbda5m3nrl7ark.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shreenath_veg_billing",
+            "certificate_hash": "76b58fb62fcb27e5aad1f1e0e3f28f0f8ddaa41a"
+          }
+        },
+        {
+          "client_id": "715020481603-bvlg83pli6rc0811poj4n9rf6si3uu9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuORl344JX_RTkXc9LUiKEZCkmTT43kQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715020481603-bvlg83pli6rc0811poj4n9rf6si3uu9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
